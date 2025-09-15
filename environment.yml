@@ -1,0 +1,14 @@
+name: Ytdl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ffmpeg
+  - pip
+  - pip:
+      - yt-dlp>=2025.1.1
+
+# How to install
+
+# conda env create -f environment.yml
+# conda activate Ytdl
